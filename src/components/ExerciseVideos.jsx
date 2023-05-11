@@ -13,7 +13,7 @@ const ExerciseVideos = ({ name, exerciseVideos }) => {
   if (!exerciseVideos.length) return <Loader />;
   return (
     <Box>
-      <Typography variant="h4" mt={3} ml={4}>
+      <Typography variant="h4" mt={3} mx={4}>
         Watch <span style={{ color: "orange" }}>{name} </span>
         related videos
       </Typography>

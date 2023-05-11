@@ -15,7 +15,7 @@ const SimilarExercises = ({ equipmentExercise, targetMuscleExercise, id }) => {
 
   return (
     <Box>
-      <Typography variant="h4" mt={3} ml={4}>
+      <Typography variant="h4" mt={3} mx={4}>
         Exercises that <span style={{ color: "orange" }}>target </span> the same
         musecle
       </Typography>
@@ -125,7 +125,7 @@ const SimilarExercises = ({ equipmentExercise, targetMuscleExercise, id }) => {
           ))}
       </Swiper>
 
-      <Typography variant="h4" mt={3} ml={4}>
+      <Typography variant="h4" mt={3} mx={4}>
         The used <span style={{ color: "orange" }}> Equipment </span> for the
         exercise
       </Typography>
